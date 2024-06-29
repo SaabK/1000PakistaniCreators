@@ -12,7 +12,13 @@ const config = {
     theme: {
         container: {
             center: true,
-            padding: "2rem",
+            padding: {
+                DEFAULT: "1rem",
+                sm: "2rem",
+                lg: "5rem",
+                xl: "6rem",
+                "2xl": "7rem",
+            },
             screens: {
                 "2xl": "1400px",
             },
@@ -53,7 +59,7 @@ const config = {
                     foreground: "hsl(var(--card-foreground))",
                 },
                 myBlack: "#000814",
-                myYellow: "#ffc300",
+                myYellow: "#ffea00",
                 myWhite: "#f7f2ee",
             },
             borderRadius: {
