@@ -2,10 +2,10 @@ import React from "react";
 
 export default function Hero() {
     return (
-        <section className="container md:w-[70%] my-32 md:my-44">
+        <section className="container md:w-[70%]">
             <h1 className="text-2xl md:text-4xl font-semibold text-center capitalize">
                 join{" "}
-                <span className="text-myYellow ">
+                <span className="text-myYellow">
                     10,000+ pakistani creators
                 </span>{" "}
                 on a <br className="hidden lg:block" /> journey to earn money
